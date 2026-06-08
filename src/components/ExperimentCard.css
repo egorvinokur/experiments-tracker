@@ -1,0 +1,56 @@
+.experiment-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid #ccc;
+}
+
+/* Цвета для разных статусов */
+.experiment-card.status-План {
+  border-left-color: #3498db;
+}
+
+.experiment-card.status-В процессе {
+  border-left-color: #f39c12;
+}
+
+.experiment-card.status-Завершён {
+  border-left-color: #27ae60;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-content h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.status-badge {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: #ff6b6b;
+  color: white;
+}
