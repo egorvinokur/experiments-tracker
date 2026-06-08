@@ -1,0 +1,46 @@
+.experiment-form {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.experiment-form h3 {
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.experiment-form input,
+.experiment-form select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.experiment-form select {
+  cursor: pointer;
+}
+
+.experiment-form button {
+  width: 100%;
+  padding: 10px;
+  background: #ffd700;
+  color: #2c3e50;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.experiment-form button:hover {
+  background: #ffe44d;
+}
